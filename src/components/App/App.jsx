@@ -1,10 +1,7 @@
-import { Presentation } from '../Sections/Presentation/Presentation';
-import './App.css';
+import { Navbar } from '../Navbar/Navbar'
 
 export const App = () => {
   return (
-    <div className='App'>
-      <Presentation />
-    </div>
+      <Navbar />
   );
 }
