@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    min-height: 100vh;
+}
+
+#root {
+    width: 85%;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #000;
+    min-height: 100vh;
+}
+
+.Content {
+    min-height: 460px;
+}
+
+.SectionHeader {
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 700;
+    color: #fa4529;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.Page {
+    color: #fff;
+    min-height: 70vh;
+}
+
+* {
+    border: none;
+}

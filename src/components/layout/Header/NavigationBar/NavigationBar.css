@@ -1,0 +1,32 @@
+.NavigationBar {
+    flex: 1 1 auto;
+}
+
+.NavigationBar ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    height: 100px;
+}
+
+.NavigationBar ul li {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.NavigationBar ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 300ms;
+}
+
+.NavigationBar .ActiveMenuLink,
+.NavigationBar ul li a:hover {
+    color: #fa4529;
+    font-size: 22px;
+}
+

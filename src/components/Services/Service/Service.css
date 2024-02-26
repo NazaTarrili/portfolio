@@ -1,0 +1,24 @@
+.Service {
+    padding: 20px;
+    background-color: #626262;
+    margin: 10px;
+    border-radius: 30px;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Service h2 {
+    color: #000;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+}
+
+.Service p {
+    font-size: 20px;
+    text-wrap: 20px;
+    text-align: center;
+}

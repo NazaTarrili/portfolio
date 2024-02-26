@@ -1,0 +1,27 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #000;
+    min-height: 70vh;
+}
+
+.Home h1{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 60px;
+    padding: 10px;
+}
+
+.Home h1 strong {
+    color: #fa4529;
+}
+
+.Home .Description {
+    color: #d3d2d2;
+    font-weight: 100;
+    font-size: 25px;
+}
