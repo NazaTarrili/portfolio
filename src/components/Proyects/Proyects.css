@@ -1,0 +1,44 @@
+.Proyect {
+    display: flex;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.ProyectInfo {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ProyectImage {
+    width: 30%;
+    height: 50%;
+}
+
+.ProyectName {
+    font-size: 30px;
+}
+
+.ProyectUrl {
+    text-decoration: none;
+    background: #e76000;
+    padding: 20px;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    width: 70px;
+    font-size: 20px;
+    transition: all 300ms;
+    margin-top: 30px;
+}
+
+.ProyectUrl:hover {
+    padding: 20px;
+    font-size: 25px;
+    background: #fff;
+    color: #e76000;
+}
+
+.ProyectDescription {
+    font-size: 20px;
+}
