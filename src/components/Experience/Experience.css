@@ -1,0 +1,75 @@
+.TimeLine {
+    position: relative;
+    width: 500px;
+    max-width: 95vw;
+    height: 100%;
+    font-family: Arial;
+    align-self: center;
+}
+
+.TimeLine::before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: #fff;
+    left: 50%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.Work {
+    position: relative;
+    width: 45%;
+    box-sizing: border-box;
+}
+
+.Work:nth-child(even) {
+    left: 55%;
+}
+
+.Work::after {
+    content: '';
+    position: absolute;
+    top: calc(50% + 10px);
+    right: calc(-11.11% - 11.5px);
+    height: 20px;
+    width: 20px;
+    background-color: #e76000;
+    border-radius: 50%;
+}
+
+.Work:nth-child(even)::after {
+    left: calc(-11.11% - 8.5px);
+}
+
+.Work h3 {
+    margin: 10px 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Work .WorkTitle {
+    background-color: #e76000;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 22px;
+    font-size: 25px;
+}
+
+.Work .WorkTitle::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: calc(50% + 10px);
+    height: 0;
+    width: 0;
+}
+
+.Work:nth-child(even) .WorkTitle {
+    background-color: #fff;
+    color: #e76000;
+}
+
+.WorkTime {
+    font-size: 20px;
+}

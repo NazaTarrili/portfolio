@@ -1,17 +1,17 @@
 export const education = [
     {
         id: 0,
-        institution: 'Instituto de enseñanza media Leonardo Da Vinci',
+        institution: 'Leonardo Da Vinci',
         begin: 'Jan 2014',
         end: 'Dec 2019',
         status: 'Graduated',
         description: 'Leonardo Da Vinci is a secondary school renowned for its unique approach that integrates science and technology with humanistic and social values. The curriculum emphasizes subjects such as programming, philosophy, and technological projects centered around sustainable energies. By blending academic rigor with a holistic perspective, Leonardo Da Vinci fosters a comprehensive educational experience that prepares students to tackle complex challenges with innovation and ethical consideration.',
-        title: 'Bachelor in Social Sciences and Humanities.',
+        title: 'Bachelor in Social Sciences and Humanities',
         documents: null
     },
     {
         id: 1,
-        institution: 'Instituto Superior Santo Domingo',
+        institution: 'Santo Domingo',
         begin: 'Jan 2020',
         end: 'Dec 2023',
         status: 'Graduated',

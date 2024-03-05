@@ -19,7 +19,7 @@ export const works = [
     },
     {
         id: 2,
-        company: 'Nazareno Leonel Tarrili Saavedra',
+        company: 'Freelancer',
         position: 'Freelance Software Developer',
         stack: ['Java', 'HTML', 'CSS', 'JavaScript', 'React', 'SQL', 'MySQL', 'SpringBoot'],
         description: 'Independent custom software developer and existing software maintenance. The start date marks the beginning of the first project I undertook in this mode. I participated in the development of a ticket system for events, the creation of websites, and custom software projects.',
