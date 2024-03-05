@@ -1,6 +1,6 @@
 .TimeLine {
     position: relative;
-    width: 500px;
+    width: 90%;
     max-width: 95vw;
     height: 100%;
     font-family: Arial;
@@ -21,6 +21,10 @@
     position: relative;
     width: 45%;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
 }
 
 .Work:nth-child(even) {
@@ -43,17 +47,17 @@
 }
 
 .Work h3 {
-    margin: 10px 0px;
-    font-size: 30px;
+    margin: 0px;
     text-align: center;
 }
 
 .Work .WorkTitle {
     background-color: #e76000;
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px;
     line-height: 22px;
     font-size: 25px;
+    width: calc(100% - 60px);
 }
 
 .Work .WorkTitle::after {
@@ -72,4 +76,8 @@
 
 .WorkTime {
     font-size: 20px;
+}
+
+.Work:last-child {
+    margin-bottom: 20px;
 }

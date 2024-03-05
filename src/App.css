@@ -1,5 +1,5 @@
 .Section {
-    margin-top: 80px;
+    margin-top: 130px;
     display: flex;
     flex-direction: column;
 }
@@ -7,7 +7,7 @@
 
 .SectionTitle {
     align-self: center;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     font-size: 40px;
     font-weight: 800;
     font-family: monospace, Arial, Helvetica, sans-serif;
