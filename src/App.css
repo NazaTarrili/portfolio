@@ -12,3 +12,7 @@
     font-weight: 800;
     font-family: monospace, Arial, Helvetica, sans-serif;
 }
+
+.Section:last-child .SectionTitle {
+    margin-bottom: 30px;
+}
