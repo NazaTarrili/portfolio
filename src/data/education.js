@@ -1,4 +1,4 @@
-export const education = [
+export const studies = [
     {
         id: 0,
         institution: 'Leonardo Da Vinci',

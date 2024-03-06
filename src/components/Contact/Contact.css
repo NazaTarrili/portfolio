@@ -1,0 +1,13 @@
+.ContactBar {
+    display: flex;
+}
+
+.ContactImage {
+    width: 40%;
+    height: 80%;
+}
+
+.IndividualContact {
+    text-align: center;
+    padding: 60px;
+}
