@@ -1,5 +1,4 @@
-import './Contact.css'
-import { contacts } from "../../data/contact"
+import { contacts } from "../data/contact"
 
 export const Contact = () => {
     return (

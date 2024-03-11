@@ -1,5 +1,4 @@
-import { studies } from '../../data/education'
-import './Education.css'
+import { studies } from '../data/education'
 
 export const Education = () => {
   return (

@@ -1,5 +1,4 @@
-import { proyects } from '../../data/proyects'
-import './Proyects.css'
+import { proyects } from '../data/proyects'
 
 export const Proyects = () => {
     return (
