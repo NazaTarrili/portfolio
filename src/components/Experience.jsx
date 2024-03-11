@@ -1,7 +1,7 @@
 import { works } from '../data/works'
-import { Card } from './Card'
-import { Section } from './Section'
-import { TimeLine } from './TimeLine/TimeLine'
+import { Card } from './GeneralComponents/Card'
+import { Section } from './GeneralComponents/Section'
+import { TimeLine } from './GeneralComponents/TimeLine/TimeLine'
 
 export const Experience = () => {
   return (

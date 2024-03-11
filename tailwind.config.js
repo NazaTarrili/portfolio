@@ -9,9 +9,9 @@ export default {
   darkMode: 'media', // or 'class'
   theme: {
     screens: {
-      'sm': { 'min': '400px' ,'max': '767px'},
-      'md': {'min': '768px', 'max': '1023px'},
-      'lg': {'min': '1024px'}
+      'sm': { 'min': '400px' ,'max': '768px'},
+      'md': {'min': '769px', 'max': '1024px'},
+      'lg': {'min': '1025px'}
     },
     colors: {
       transparent: 'transparent',
@@ -31,6 +31,10 @@ export default {
         900: '#070300',
         950: '#000000'
       }
+    },
+    backgroundImage: {
+      'gradient-to-b': 'linear-gradient(to bottom, var(--tw-gradient-stops))',
+      'gradient-to-t': 'linear-gradient(to top, var(--tw-gradient-stops))'
     },
     backgroundColor: ({ theme }) => theme('colors'),
     borderColor: ({ theme }) => theme('colors'),
@@ -90,6 +94,7 @@ export default {
       full: '50%',
       ...theme('spacing')
     }),
+    inset: ({theme}) => theme('spacing'),
     flex: {
       1: '1 1 0%',
       auto: '1 1 auto',
@@ -130,6 +135,7 @@ export default {
       extrabold: '800',
       black: '900',
     },
+    gradientColorStops: ({ theme }) => theme('colors'),
     extend: {
       width: {
         layout: '80%',

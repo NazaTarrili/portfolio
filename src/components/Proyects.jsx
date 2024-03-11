@@ -1,24 +1,19 @@
 import { proyects } from '../data/proyects'
+import { Section } from './GeneralComponents/Section'
 
 export const Proyects = () => {
     return (
-        <section className="Section Proyects">
-            <h2 className='SectionTitle'>Proyects</h2>
-
+        <Section sectionName='Proyects'>
             {
-                proyects.map(proyect => {
-                    return (
-                        <div className='Proyect' key={proyect.id}>
-                            <img className='ProyectImage' src={proyect.imageUrl} alt={proyect.name} />
-                            <div className='ProyectInfo'>
-                                <h3 className='ProyectName'>{proyect.name}</h3>
-                                <p className='ProyectDescription'>{proyect.description}</p>
-                                <a className='ProyectUrl' target='_blank' href={proyect.url}>Go to</a>
-                            </div>
-                        </div>
-                    )
-                })
+                proyects.map(proyect => (
+                    <div className='w-full mt-14 flex flex-col' key={proyect.id}>
+                        {/* <img className='' src={proyect.imageUrl} alt={proyect.name} /> */}
+                            <h3 className='text-white text-3xl'>{proyect.name}</h3>
+                            <p className='text-white text-xl'>{proyect.description}</p>
+                            <a className='text-white bg-fall-600 w-24 p-5 font-bold uppercase rounded-7' target='_blank' href={proyect.url}>Go to</a>
+                    </div>
+                ))
             }
-        </section>
+        </Section>
     )
 }
