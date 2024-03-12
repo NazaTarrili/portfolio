@@ -80,6 +80,7 @@ export default {
       72: '18rem',
       80: '20rem',
       96: '24rem',
+      104: '28rem'
     },
     padding: ({theme})=> theme('spacing'),
     margin: ({theme})=> theme('spacing'),
