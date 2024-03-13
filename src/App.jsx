@@ -1,6 +1,8 @@
 import { Header } from './components/Header'
 import { Experience } from './components/Experience'
 import { Proyects } from './components/Proyects'
+import { Education } from './components/Education'
+import { Contact } from './components/Contact'
 
 export const App = () => {
     return (
@@ -8,6 +10,8 @@ export const App = () => {
             <Header />
             <Experience />
             <Proyects />
+            <Education />
+            <Contact />
         </div>
     )
 }

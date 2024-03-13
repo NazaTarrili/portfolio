@@ -1,22 +1,18 @@
 import { studies } from '../data/education'
+import { Card } from './GeneralComponents/Card'
+import { Section } from './GeneralComponents/Section'
+import { TimeLine } from './GeneralComponents/TimeLine'
 
-export const Education = () => {
-  return (
-    <section className="Section Experience">
-      <h2 className='SectionTitle'>Education</h2>
-
-      <div className='TimeLine'>
-        {
-          studies.map(study => {
-            return (
-              <div className='Education' key={study.id}>
-                <h3 className='EducationTitle'>{study.title} at {study.institution}</h3>
-                <p className='EducationTime'>{study.begin} - {study.end ? study.end : 'Present'}</p>
-              </div>
-            )
-          })
-        }
-      </div>
-    </section>
-  )
-}
+export const Education = () => (
+  <Section sectionName='Education'>
+    <TimeLine>
+      {studies.map(study => (
+        <Card
+          key={study.id}
+          superiorText={`${study.title} at ${study.institution}`}
+          inferiorText={`${study.begin} - ${study.end ? study.end : 'Present'}`}
+        />
+      ))}
+    </TimeLine>
+  </Section>
+)

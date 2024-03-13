@@ -6,7 +6,7 @@ export const proyects = [
         stack: ['HTML', 'CSS', 'JavaScript', 'React'],
         description: 'Web app developed in React that saves movies in local storage and permits visualize on the exporer.',
         categories: ['Web', 'React'],
-        imageUrl: 'MoviesAppImg.png'
+        imageUrl: 'movie-icon.png'
     },
     {
         id: 1,
@@ -15,6 +15,6 @@ export const proyects = [
         stack: ['Java', 'JavaFX'],
         description: 'Draws a sunflower in the console using JavaFX. The sunflower is drawed using maths and algorithms.',
         categories: ['Desktop', 'JavaFX', 'Art', 'Algorithms', 'Maths'],
-        imageUrl: 'SunflowerImg.png'
+        imageUrl: 'sunflower-icon.png'
     }
 ]

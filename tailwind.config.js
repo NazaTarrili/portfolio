@@ -137,6 +137,15 @@ export default {
       black: '900',
     },
     gradientColorStops: ({ theme }) => theme('colors'),
+    transitionDelay: {
+      300: '300ms'
+    },
+    transitionProperty: {
+      all: 'all'
+    },
+    transitionDuration: {
+      300: '300ms'
+    },
     extend: {
       width: {
         layout: '80%',

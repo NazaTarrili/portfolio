@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+import { string, any } from 'prop-types'
 import { SectionTitle } from './SectionTitle'
 
 export const Section = ({ sectionName, children }) => (
@@ -10,6 +10,6 @@ export const Section = ({ sectionName, children }) => (
 
 
 Section.propTypes = {
-    sectionName: PropTypes.string,
-    children: PropTypes.element
+    sectionName: string,
+    children: any
 }

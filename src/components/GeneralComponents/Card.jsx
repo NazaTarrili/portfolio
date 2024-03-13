@@ -1,6 +1,6 @@
-import PropTypes from 'prop-types'
+import { string } from 'prop-types'
 
-export const Card = ({superiorText, inferiorText}) => {
+export const Card = ({ superiorText, inferiorText }) => {
     return (
         <div className='flex items-center mb-8 last:mb-0 bg-gradient-to-t from-fall-700 to-fall-300 p-9 rounded-8 text-center justify-center w-full md:w-80 md:p-10 lg:w-104 lg:p-12'>
             <div >
@@ -12,6 +12,6 @@ export const Card = ({superiorText, inferiorText}) => {
 }
 
 Card.propTypes = {
-    superiorText: PropTypes.string,
-    inferiorText: PropTypes.string
+    superiorText: string,
+    inferiorText: string
 }
