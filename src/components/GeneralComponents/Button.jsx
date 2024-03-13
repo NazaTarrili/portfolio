@@ -16,7 +16,7 @@ export const Button = ({ text, url }) => (
             hover:bg-white 
             hover:text-fall-600 
             hover:translate-y-1
-            ' 
+        ' 
         target='_blank'
         href={url}
     >{text}</a>
