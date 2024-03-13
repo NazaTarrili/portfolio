@@ -20,7 +20,6 @@ export const Proyects = () => (
                     <img 
                         className='
                             w-24 md:w-32 lg:w-40
-                            h-24 md:h-32 lg:h-40
                             md:mb-0 lg:mb-0
                         ' 
                         src={imageUrl} 
